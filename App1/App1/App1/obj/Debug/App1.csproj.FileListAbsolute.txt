@@ -1,0 +1,15 @@
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\App1.dll
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\App1.pdb
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\obj\Debug\App1.MainPage.xaml.g.cs
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\obj\Debug\App1.App.xaml.g.cs
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\obj\Debug\App1.dll
+c:\users\asus\documents\visual studio 2015\Projects\App1\App1\App1\obj\Debug\App1.pdb
