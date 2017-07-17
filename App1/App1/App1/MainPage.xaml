@@ -5,21 +5,21 @@
              x:Class="App1.MainPage">
 
     <StackLayout Padding="10" Spacing="10">
-        <Label Text ="Name"/>
-        <Entry Text="{Binding Name }" Placeholder="Full Name"/>
+        <Label Text ="Pet Breed"/>
+        <Entry Text="{Binding Breed }" Placeholder="Pet Breed"/>
 
-        <Label Text ="Website"/>
-        <Entry Text="{Binding Website }" Placeholder="Your Website"/>
+        <Label Text ="Pet Name"/>
+        <Entry Text="{Binding Pet }" Placeholder="Pet Name"/>
 
         <StackLayout Orientation="Horizontal" Spacing="10">
-            <Label Text ="Best Friend?"/>
-            <Switch IsToggled="{Binding BestFriend }"/>
+            <Label Text ="Is Attending?"/>
+            <Switch IsToggled="{Binding IsAttending }"/>
         </StackLayout>
 
         <Label Text="{Binding DisplayMessage}"/>
 
         <Button Text="Open Website" Command="{Binding LaunchWebsiteCmd}"/>
-        <Button Text="Save Contact" Command="{Binding SaveContactCmd}"/>
+        <Button Text="Save Record" Command="{Binding SaveContactCmd}"/>
 
         <ActivityIndicator IsRunning="{Binding IsBusy }"/>
     </StackLayout>

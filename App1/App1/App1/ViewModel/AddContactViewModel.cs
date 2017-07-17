@@ -20,9 +20,9 @@ namespace App1.ViewModel
         }
         
         //initial values
-        string name = "Jeric";
-        string website = "https://blog.xamarin.com";
-        bool bestFriend;
+        string breed = "Shih Tzu";
+        string pet = "Zestee";
+        bool isAttending;
         bool isBusy;
 
         //event for property changed.
@@ -34,15 +34,15 @@ namespace App1.ViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-        public bool BestFriend
+        public bool IsAttending
         {
             get
             {
-                return bestFriend;
+                return isAttending;
             }
             set
             {
-                bestFriend = value;
+                isAttending = value;
 
                 OnPropertyChanged();
 
@@ -50,17 +50,17 @@ namespace App1.ViewModel
             }
         }
 
-        public string Name
+        public string Breed
         {
             get
             {
-                return name;
+                return breed;
             }
             set
             {
-                name = value;
+                breed = value;
                 //sample condition
-                if (name == "James")
+                if (breed == "Askal")
                 {
                     IsBusy = true;
                 }
@@ -75,15 +75,15 @@ namespace App1.ViewModel
             }
         }
 
-        public string Website
+        public string Pet
         {
             get
             {
-                return website;
+                return pet;
             }
             set
             {
-                website = value;
+                pet = value;
 
                 OnPropertyChanged();
 
@@ -110,7 +110,7 @@ namespace App1.ViewModel
         {
             get
             {
-                return $"Your new friend is named {Name} and {(bestFriend ? "is" : "is not")} your best friend  ";
+                return $"Your pet {pet} is a {Breed}. Your pet {(isAttending ? "will" : "will not")} attend to a clinic schedule.";
             }
         }
 
@@ -121,7 +121,7 @@ namespace App1.ViewModel
         {
             try
             {
-                Device.OpenUri(new Uri(website));
+                Device.OpenUri(new Uri($"https://www.google.com.ph/#q={breed}"));
             }
             catch
             {
